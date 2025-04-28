@@ -1,4 +1,4 @@
-    let times = require("./dados.json");
+   let times = require("./dados.json");
 
     vertime();
         function vertime (){
@@ -35,12 +35,12 @@
     fs.writeFileSync("jogos.json", jogosJson)
 
     }
-    marcarJogos("Fc span", "Raios", "25/04/2025", "21", "neo quimica", "Curitiba" )
+    marcarJogos("Fc span", "Raios", "25/04/2025", "21", "neo quimica", "São Paulo" )
 
     function mostrarJogos(){
         let jogos = require("./jogos.json")
         jogos.forEach ((jogo) => {
-            console.log(jogo.timeA + "x" + jogo.timeB + "jogo.data" + "jogo.horario" + "jogo.estadio" + "jogo.cidade")
+            console.log(jogo.timeA + "x" + jogo.timeB + "27/04/2025" + "21:00" + "neo quimica" + "São Paulo")
         }
         );
     }                    
